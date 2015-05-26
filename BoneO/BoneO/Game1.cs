@@ -12,6 +12,8 @@ namespace BoneO
         GraphicsDeviceManager graphics;
         SpriteBatch spriteBatch;
 
+        int _score;
+
         public Game1()
             : base()
         {
