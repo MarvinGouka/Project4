@@ -7,5 +7,12 @@ namespace BoneO
 {
     class Projectile
     {
+        //Fields
+
+        //Properties
+
+        //Constructor
+
+        //Methods
     }
 }

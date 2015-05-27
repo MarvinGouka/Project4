@@ -7,5 +7,12 @@ namespace BoneO
 {
     class Map
     {
+        //Fields
+
+        //Properties
+
+        //Constructor
+
+        //Methods
     }
 }

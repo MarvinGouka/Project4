@@ -7,5 +7,12 @@ namespace BoneO
 {
     class Player
     {
+        //Fields
+
+        //Properties
+
+        //Constructor
+
+        //Methods
     }
 }

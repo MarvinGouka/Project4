@@ -7,5 +7,12 @@ namespace BoneO
 {
     class Entity
     {
+        //Fields
+
+        //Properties
+
+        //Constructor
+
+        //Methods
     }
 }
