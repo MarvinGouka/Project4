@@ -31,13 +31,13 @@ namespace BoneO
         }
 
         //Methods
-        public void Move()
+        public void Move(Viewport viewport)
         {
-            if (Keyboard.GetState().IsKeyDown(Keys.Left) && !Keyboard.GetState().IsKeyDown(Keys.Right))
+            if (Keyboard.GetState().IsKeyDown(Keys.Left) && !Keyboard.GetState().IsKeyDown(Keys.Right) && Position.X > 0)
             {
                 Position = new Vector2(Position.X - _speed, Position.Y);
             }
-            else if (Keyboard.GetState().IsKeyDown(Keys.Right) && !Keyboard.GetState().IsKeyDown(Keys.Left))
+            else if (Keyboard.GetState().IsKeyDown(Keys.Right) && !Keyboard.GetState().IsKeyDown(Keys.Left) && Position.X + Texture.Width > viewport.Width)
             {
                 Position = new Vector2(Position.X + _speed, Position.Y);
             }
