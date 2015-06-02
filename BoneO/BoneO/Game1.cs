@@ -11,6 +11,7 @@ namespace BoneO
     {
         GraphicsDeviceManager graphics;
         SpriteBatch spriteBatch;
+        // hallo
 
         int _score;
 
