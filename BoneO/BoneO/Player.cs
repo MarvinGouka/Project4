@@ -8,6 +8,7 @@ namespace BoneO
     class Player
     {
         //Fields
+        private int _score;
 
         //Properties
 

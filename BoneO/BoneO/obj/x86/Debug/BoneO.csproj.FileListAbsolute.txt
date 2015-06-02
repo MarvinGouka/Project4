@@ -1,0 +1,10 @@
+C:\Users\Sven1\Documents\GitHub\Project4\BoneO\BoneO\obj\x86\Debug\BoneO.csprojResolveAssemblyReference.cache
+C:\Users\Sven1\Documents\GitHub\Project4\BoneO\BoneO\bin\WindowsGL\Debug\SDL.dll
+C:\Users\Sven1\Documents\GitHub\Project4\BoneO\BoneO\bin\WindowsGL\Debug\Content\boneo.bmp
+C:\Users\Sven1\Documents\GitHub\Project4\BoneO\BoneO\bin\WindowsGL\Debug\BoneO.exe
+C:\Users\Sven1\Documents\GitHub\Project4\BoneO\BoneO\bin\WindowsGL\Debug\BoneO.pdb
+C:\Users\Sven1\Documents\GitHub\Project4\BoneO\BoneO\bin\WindowsGL\Debug\MonoGame.Framework.dll
+C:\Users\Sven1\Documents\GitHub\Project4\BoneO\BoneO\bin\WindowsGL\Debug\OpenTK.dll
+C:\Users\Sven1\Documents\GitHub\Project4\BoneO\BoneO\bin\WindowsGL\Debug\Tao.Sdl.dll
+C:\Users\Sven1\Documents\GitHub\Project4\BoneO\BoneO\obj\x86\Debug\BoneO.exe
+C:\Users\Sven1\Documents\GitHub\Project4\BoneO\BoneO\obj\x86\Debug\BoneO.pdb

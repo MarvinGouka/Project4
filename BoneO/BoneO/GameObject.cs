@@ -42,19 +42,9 @@ namespace BoneO
         }
 
         //Methods
-        public override void Draw(SpriteBatch spriteBatch)
+        public virtual void Draw(SpriteBatch spriteBatch)
         {
             spriteBatch.Draw(_texture, _position, _color);
-        }
-
-        public void randomFunctionToTestGitHub()
-        {
-            Console.WriteLine("testertsz");
-        }
-			
-        public void hallo()
-        {
-            Console.WriteLine("dwa");
         }
     }
 }

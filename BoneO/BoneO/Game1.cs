@@ -11,9 +11,7 @@ namespace BoneO
     {
         GraphicsDeviceManager graphics;
         SpriteBatch spriteBatch;
-        // hallo
-		//doei
-        //kaas
+        Boneo boneo;
 
         int _score;
 
@@ -35,6 +33,8 @@ namespace BoneO
             // TODO: Add your initialization logic here
 
             base.Initialize();
+            Texture2D boneoTexture = Content.Load<Texture2D>("boneo");
+            boneo = new Boneo(boneoTexture, new Vector2(100, 100), Color.White, 10);
         }
 
         /// <summary>
@@ -68,7 +68,7 @@ namespace BoneO
             if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed || Keyboard.GetState().IsKeyDown(Keys.Escape))
                 Exit();
 
-            // TODO: Add your update logic here
+            boneo.Move();
 
             base.Update(gameTime);
         }
@@ -81,7 +81,9 @@ namespace BoneO
         {
             GraphicsDevice.Clear(Color.CornflowerBlue);
 
-            // TODO: Add your drawing code here
+            spriteBatch.Begin();
+            boneo.Draw(spriteBatch);
+            spriteBatch.End();
 
             base.Draw(gameTime);
         }
