@@ -52,6 +52,7 @@ namespace BoneO
         }
 
 		public void hallo() {
-			dwa
+			dwa4
+        }
     }
 }
