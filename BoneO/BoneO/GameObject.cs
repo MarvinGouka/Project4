@@ -51,15 +51,10 @@ namespace BoneO
         {
             Console.WriteLine("testertsz");
         }
-
-<<<<<<< HEAD
-		public void hallo() {
-			dwa4
-=======
+			
         public void hallo()
         {
             Console.WriteLine("dwa");
->>>>>>> origin/master
         }
     }
 }
