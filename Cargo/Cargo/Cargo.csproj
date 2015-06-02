@@ -5,11 +5,11 @@
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{DCD2424F-1A56-432F-BDE8-09F9BEF0E0F4}</ProjectGuid>
+    <ProjectGuid>{1A78F49B-FDEF-40A5-8856-1B7F79989FCF}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>BoneO</RootNamespace>
-    <AssemblyName>BoneO</AssemblyName>
+    <RootNamespace>Cargo</RootNamespace>
+    <AssemblyName>Cargo</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <MonoGamePlatform>WindowsGL</MonoGamePlatform>
     <MonoGameContentBuilderExe>
@@ -39,11 +39,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Game1.cs" />
-    <Compile Include="GameObject.cs" />
-    <Compile Include="Map.cs" />
-    <Compile Include="Player.cs" />
     <Compile Include="Program.cs" />
-    <Compile Include="Projectile.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
