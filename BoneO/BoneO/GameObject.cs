@@ -47,11 +47,14 @@ namespace BoneO
             spriteBatch.Draw(_texture, _position, _color);
         }
 
-        public void randomFunctionToTestGitHub() {
+        public void randomFunctionToTestGitHub()
+        {
             Console.WriteLine("testertsz");
         }
 
-		public void hallo() {
-			dwa
+        public void hallo()
+        {
+            Console.WriteLine("dwa");
+        }
     }
 }
