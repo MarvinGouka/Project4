@@ -13,6 +13,7 @@ namespace BoneO
         SpriteBatch spriteBatch;
         // hallo
 		//doei
+        //kaas
 
         int _score;
 
