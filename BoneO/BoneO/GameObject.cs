@@ -50,5 +50,8 @@ namespace BoneO
         public void randomFunctionToTestGitHub() {
             Console.WriteLine("testertsz");
         }
+
+		public void hallo() {
+			dwa
     }
 }
