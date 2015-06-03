@@ -68,7 +68,7 @@ namespace BoneO
             if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed || Keyboard.GetState().IsKeyDown(Keys.Escape))
                 Exit();
 
-            boneo.Move();
+            boneo.Update();
 
             base.Update(gameTime);
         }

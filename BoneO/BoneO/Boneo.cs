@@ -31,7 +31,7 @@ namespace BoneO
         }
 
         //Methods
-        public void Move(Viewport viewport)
+        public void Update(Viewport viewport)
         {
             if (Keyboard.GetState().IsKeyDown(Keys.Left) && !Keyboard.GetState().IsKeyDown(Keys.Right) && Position.X > 0)
             {
@@ -40,6 +40,12 @@ namespace BoneO
             else if (Keyboard.GetState().IsKeyDown(Keys.Right) && !Keyboard.GetState().IsKeyDown(Keys.Left) && Position.X + Texture.Width > viewport.Width)
             {
                 Position = new Vector2(Position.X + _speed, Position.Y);
+            }
+
+            var mouseState = Mouse.GetState();
+
+            if(mouseState.LeftButton == ButtonState.Released){
+                Console.WriteLine("Clicked");
             }
         }
 
