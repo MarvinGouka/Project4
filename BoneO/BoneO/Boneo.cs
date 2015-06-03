@@ -46,6 +46,7 @@ namespace BoneO
 
             if(mouseState.LeftButton == ButtonState.Released){
                 Console.WriteLine("Clicked");
+                //Nu een botje gooien
             }
         }
 
