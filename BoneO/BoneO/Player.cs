@@ -5,7 +5,7 @@ using System.Text;
 
 namespace BoneO
 {
-    class Player : GameObject
+    class Player
     {
         //Fields
         private int _score;
