@@ -7,7 +7,7 @@ using System.Text;
 
 namespace BoneO
 {
-    class Map
+    class Map : GameObject
     {
         //Fields
 

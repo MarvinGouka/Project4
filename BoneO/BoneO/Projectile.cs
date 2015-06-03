@@ -5,7 +5,7 @@ using System.Text;
 
 namespace BoneO
 {
-    class Projectile
+    class Projectile : GameObject
     {
         //Fields
 
