@@ -8,3 +8,5 @@ C:\Users\Sven1\Documents\GitHub\Project4\BoneO\BoneO\bin\WindowsGL\Debug\OpenTK.
 C:\Users\Sven1\Documents\GitHub\Project4\BoneO\BoneO\bin\WindowsGL\Debug\Tao.Sdl.dll
 C:\Users\Sven1\Documents\GitHub\Project4\BoneO\BoneO\obj\x86\Debug\BoneO.exe
 C:\Users\Sven1\Documents\GitHub\Project4\BoneO\BoneO\obj\x86\Debug\BoneO.pdb
+C:\Users\wesle_000\Documents\Visual Studio 2013\Projects\Project4\BoneO\BoneO\obj\x86\Debug\BoneO.exe
+C:\Users\wesle_000\Documents\Visual Studio 2013\Projects\Project4\BoneO\BoneO\obj\x86\Debug\BoneO.pdb
